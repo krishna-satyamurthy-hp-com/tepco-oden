@@ -29,8 +29,7 @@ public class LSCSServiceTest {
 			final Client lscsClient = lscsClientFactory.getLSCSClient();
 			System.out.println("lscs client "+lscsClient);
 			System.out.println("Available LSCS Projects");
-			System.out.println(lscsClient.getAllProjects());
-			System.out.println("These changes are made by Masaru");
+			System.out.println(lscsClient.getAllProjects());			
 		}
 		catch(Exception ex){
 			ex.printStackTrace();
