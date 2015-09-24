@@ -28,7 +28,7 @@ public class SampleExternal {
 				System.out.println("lscs client "+lscsClient);
 				System.out.println("Available LSCS Projects");
 				final String[] allLSCSProjects = lscsClient.getAllProjects();
-				
+				//Just committing for the sake of committing
 				for (String lscsProject : allLSCSProjects){
 					LOGGER.error("LSCS Project : "+lscsProject);
 				}				
